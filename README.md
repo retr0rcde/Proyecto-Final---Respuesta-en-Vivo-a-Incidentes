@@ -20,16 +20,5 @@ El propósito de este proyecto es mostrar de forma práctica cómo un atacante p
 
 A la vez, se documenta el proceso de detección, análisis y respuesta para comprender mejor la trazabilidad de un incidente.  
 
-## ⚙️ Uso de la máquina virtual  
-
-1. Importa la máquina virtual en tu software de virtualización (VirtualBox, VMware, etc.).  
-2. Inicia el sistema y revisa los directorios indicados en el informe.  
-3. Analiza los archivos creados por el atacante:  
-   - `/usr/local/bin/backup2.sh`  
-   - `/etc/cron.d/sys-maintenance`  
-   - `.bash_history` de usuarios comprometidos 
-4. Analiza la caperta creada por el analista /home/IR/ 
-4. Contrasta con el informe para comprender la secuencia de compromiso.  
-
 ✍️ Autor: Roger. 
 📅 Fecha: Agosto 2025  
